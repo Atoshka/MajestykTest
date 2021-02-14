@@ -27,7 +27,7 @@ enum HTTPHeaderField: String {
 }
 
 enum Authorization: String {
-    case accessToken = "d8dd1bd6d28092ac9678b915b1d06f3739c15d40"
+    case accessToken = "ACCESS_TOKEN"
 }
 
 enum ContentType: String {
