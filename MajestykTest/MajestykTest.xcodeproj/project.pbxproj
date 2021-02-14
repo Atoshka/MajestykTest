@@ -36,6 +36,7 @@
 		DCA1838725D9525300A6941D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA1838125D9525200A6941D /* LaunchScreen.storyboard */; };
 		DCA1838925D9525300A6941D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA1838425D9525200A6941D /* Assets.xcassets */; };
 		DCA1838A25D9525300A6941D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1838525D9525300A6941D /* SceneDelegate.swift */; };
+		DCA1839525D9872700A6941D /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA1839425D9872700A6941D /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +68,7 @@
 		DCA1838225D9525200A6941D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCA1838425D9525200A6941D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCA1838525D9525300A6941D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCA1839425D9872700A6941D /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		DCA182C525D8512700A6941D /* MajestykTest */ = {
 			isa = PBXGroup;
 			children = (
+				DCA1839325D9871600A6941D /* Extension */,
 				DCA1837F25D9525200A6941D /* App */,
 				DCA182FD25D862E500A6941D /* Services */,
 				DCA182DC25D8517A00A6941D /* Modules */,
@@ -237,6 +240,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
+		DCA1839325D9871600A6941D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DCA1839425D9872700A6941D /* DateFormatter.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -318,6 +329,7 @@
 				DCA1837225D9512900A6941D /* APIRouter.swift in Sources */,
 				DCA1833525D92FA200A6941D /* UserListView.swift in Sources */,
 				DCA1837825D9512900A6941D /* HTTPRequestManager.swift in Sources */,
+				DCA1839525D9872700A6941D /* DateFormatter.swift in Sources */,
 				DCA1837425D9512900A6941D /* UserReposRouter.swift in Sources */,
 				DCA1832225D8921700A6941D /* ReposNumberTextView.swift in Sources */,
 				DCA1835825D945AB00A6941D /* RepoItemView.swift in Sources */,

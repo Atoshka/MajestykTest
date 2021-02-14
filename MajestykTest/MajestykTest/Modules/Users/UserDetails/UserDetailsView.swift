@@ -31,7 +31,7 @@ struct UserDetailsView<ViewModel>: View where ViewModel: UserDetailsViewModelPro
                     Text(viewModel.userDetails.userName)
                     Text(viewModel.userDetails.email)
                     Text(viewModel.userDetails.location)
-                    Text(viewModel.userDetails.name)
+                    Text(viewModel.userDetails.createdAt)
                     Text(viewModel.userDetails.followersInfo)
                     Text(viewModel.userDetails.followingInfo)
                 }

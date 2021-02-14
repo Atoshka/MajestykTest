@@ -14,7 +14,7 @@ struct UserDetailsResponse: Codable, Identifiable {
     let login: String
     let email: String?
     let location: String?
-    let name: String?
+    let createdAt: String
     let followers: Int?
     let following: Int?
     let avatarUrl: String
@@ -24,7 +24,7 @@ struct UserDetailsResponse: Codable, Identifiable {
         case login
         case email
         case location
-        case name
+        case createdAt = "created_at"
         case followers
         case following
         case avatarUrl = "avatar_url"
