@@ -27,9 +27,9 @@ enum HTTPHeaderField: String {
 }
 
 enum Authorization: String {
-    case accessToken = "164ac7e1bbca3c52ec425521edf80355d0f0fb51"
+    case accessToken = "d8dd1bd6d28092ac9678b915b1d06f3739c15d40"
 }
-//164ac7e1bbca3c52ec425521edf80355d0f0fb51
+
 enum ContentType: String {
     case json = "application/json"
     case github = "application/vnd.github.v3+json"
